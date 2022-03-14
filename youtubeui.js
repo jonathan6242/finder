@@ -53,7 +53,7 @@ class UI {
         if(+subscriberCount >= 1000000) {
             return (+subscriberCount / 1000000) + "M"
         } else if (+subscriberCount >= 1000) {
-            return (+subscriberCount / 1000000) + "K"
+            return (+subscriberCount / 1000) + "K"
         }else {
             return subscriberCount;
         }
