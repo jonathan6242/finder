@@ -1,6 +1,5 @@
 class UI {
     showProfile(profile) {
-        console.log(profile);
         document.querySelector('.profile .row').innerHTML = `
             <div class="profile__left">
                 <img class="profile__img" src="${profile.avatar_url}" alt="">

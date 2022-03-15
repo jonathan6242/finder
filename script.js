@@ -24,5 +24,3 @@ search.addEventListener('keyup', function(e) {
     }
        
 })
-
-

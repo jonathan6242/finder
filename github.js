@@ -2,7 +2,7 @@ class GitHub {
     constructor() {
         this.repo_count = 5;
         this.repos_sort = 'created: asc';
-        this.token = "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";
+        this.token = "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";
     }
     async getUser(name) {
         const res = await fetch(`https://api.github.com/users/${name}`,
